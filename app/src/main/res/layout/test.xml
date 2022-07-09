@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/TVCourseName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:padding="4dp"
+        android:text="Course Name"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVCourse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/TVCourseName"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="4dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVCourseName" />
+
+    <TextView
+        android:id="@+id/TVDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVCourseName"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/IVCourse"
+        android:padding="3dp"
+        android:text="Description"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/IVCourse"
+        app:layout_constraintTop_toBottomOf="@+id/TVCourseName" />
+
+    <TextView
+        android:id="@+id/TVSuitedFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVDescription"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/IVCourse"
+        android:padding="3dp"
+        android:text="Difficulty Level : "
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/IVCourse"
+        app:layout_constraintTop_toBottomOf="@+id/TVDescription" />
+
+    <TextView
+        android:id="@+id/TVPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVSuitedFor"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/IVCourse"
+        android:padding="3dp"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/IVCourse"
+        app:layout_constraintTop_toBottomOf="@+id/TVSuitedFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TVPrice"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/BtnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="Edit Course"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/BtnViewDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="View Details"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
