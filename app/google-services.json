@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69001484708",
+    "project_id": "mad-lab-mini-project-631e5",
+    "storage_bucket": "mad-lab-mini-project-631e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69001484708:android:9598773486947c37a50931",
+        "android_client_info": {
+          "package_name": "com.example.crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69001484708-ropa0kc48p1v441opm3tiv8c976asin6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyT6qo__UexZNNjC-gJdPaqRW3qVThF3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69001484708-ropa0kc48p1v441opm3tiv8c976asin6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

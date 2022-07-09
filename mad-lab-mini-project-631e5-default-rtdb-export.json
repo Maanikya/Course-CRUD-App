@@ -1,0 +1,31 @@
+{
+  "Courses": {
+    "100 Days of Code: The Complete Python Pro Bootcamp for 2022": {
+      "bestSuitedFor": "Beginner ",
+      "courseDescription": "You will master the Python programming language by building 100 unique projects over 100 days.\nYou will learn automation, game, app and web development, data science and machine learning all using Python.\nYou will be able to program in Python professionally\nYou will learn Selenium, Beautiful Soup, Request, Flask, Pandas, NumPy, Scikit Learn, Plotly, and Matplotlib.",
+      "courseID": "100 Days of Code: The Complete Python Pro Bootcamp for 2022",
+      "courseImg": "https://s.udemycdn.com/premium-clp/2776760/CourseImage-2x.jpg",
+      "courseLink": "https://www.udemy.com/course/100-days-of-code/",
+      "courseName": "100 Days of Code: The Complete Python Pro Bootcamp for 2022",
+      "coursePrice": "3499"
+    },
+    "Bash Scripting and Shell Programming (Linux Command Line)": {
+      "bestSuitedFor": "Beginner ",
+      "courseDescription": "If you want to learn how to write bash shell scripts like a pro, solve real-world problems, or automate repetitive and complex tasks, read on.\n\nHello. My name is Jason Cannon and I'm the author of Linux for Beginners, Python Programming for Beginners, and the founder of the Linux Training Academy. I started my IT career in the late 1990's as a Unix and Linux System Engineer and I'll be sharing my real-world bash scripting and shell programming experience with you throughout this course.\n\nBy the end of this course you will be able to create bash scripts with ease. You'll learn how to take tedious and repetitious tasks and turn them into programs that will save you time and simplify your life on Linux, Unix, or MAC systems.",
+      "courseID": "Bash Scripting and Shell Programming (Linux Command Line)",
+      "courseImg": "https://img-c.udemycdn.com/course/480x270/958532_478a_4.jpg",
+      "courseLink": "https://www.udemy.com/course/bash-scripting/",
+      "courseName": "Bash Scripting and Shell Programming (Linux Command Line)",
+      "coursePrice": "3499"
+    },
+    "The Complete Cyber Security Course: Hackers Exposed!": {
+      "bestSuitedFor": "IT",
+      "courseDescription": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity.",
+      "courseID": "The Complete Cyber Security Course: Hackers Exposed!",
+      "courseImg": "https://img-c.udemycdn.com/course/480x270/614772_233b_9.jpg",
+      "courseLink": "https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/",
+      "courseName": "The Complete Cyber Security Course: Hackers Exposed!",
+      "coursePrice": "3499"
+    }
+  }
+}

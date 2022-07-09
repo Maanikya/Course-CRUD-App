@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MADLAB/Mini_Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1375" />
+        <entry key="..\:/MADLAB/Mini_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
+        <entry key="..\:/MADLAB/Mini_Project/app/src/main/res/layout/activity_login.xml" value="0.253125" />
+        <entry key="..\:/Mini_Project/app/src/main/res/drawable/custom_buttom_back.xml" value="0.2075" />
+        <entry key="..\:/Mini_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2075" />
+        <entry key="..\:/Mini_Project/app/src/main/res/layout/activity_add_course.xml" value="0.25" />
+        <entry key="..\:/Mini_Project/app/src/main/res/layout/activity_edit_course.xml" value="0.2" />
+        <entry key="..\:/Mini_Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Mini_Project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Mini_Project/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/drawable/custom_buttom_back.xml" value="0.244" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.138" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/drawable/progress_back.xml" value="0.244" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/drawable/round_drawable.xml" value="0.2585" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/layout/activity_add_course.xml" value="0.25416666666666665" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/layout/activity_login.xml" value="0.253125" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/layout/activity_main.xml" value="0.2390625" />
+        <entry key="..\:/My Per$0n@l/My Folder/6CS2/MADLAB/Mini_Project/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_add_course.xml" value="0.36354166666666665" />
+        <entry key="app/src/main/res/layout/activity_edit_course.xml" value="0.36354166666666665" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3079710144927536" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3079710144927536" />
+        <entry key="app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.3079710144927536" />
+        <entry key="app/src/main/res/layout/course_rv_item.xml" value="0.3079710144927536" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.36354166666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
