@@ -1,9 +1,14 @@
 package com.example.crud;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -11,6 +16,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -26,11 +32,17 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginBtn;
     private ProgressBar loadingPB;
     private FirebaseAuth mAuth;
+    private VideoView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        ActionBar actionBar;
+        actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#000000"));
+        actionBar.setBackgroundDrawable(colorDrawable);
 
         userNameEdt = findViewById(R.id.EdtUserName);
         pwdEdt = findViewById(R.id.EdtPwd);
@@ -38,6 +50,12 @@ public class LoginActivity extends AppCompatActivity {
         loadingPB = findViewById(R.id.PBLoading);
         registerTV = findViewById(R.id.TVRegister);
         mAuth = FirebaseAuth.getInstance();
+
+        videoView = (VideoView) findViewById(R.id.lgVideo);
+        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.watch);
+        videoView.setVideoURI(uri);
+        videoView.start();
+        videoView.setOnPreparedListener(mp -> mp.setLooping(true));
 
         registerTV.setOnClickListener(new View.OnClickListener() {
             @Override
