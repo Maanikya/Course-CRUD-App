@@ -17,7 +17,10 @@
             android:id="@+id/PBLoading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_centerInParent="true"
+            android:scaleX="2"
+            android:scaleY="2"
             android:indeterminate="true"
             android:indeterminateDrawable="@drawable/progress_back" />
 
@@ -26,7 +29,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="20dp"
             android:src="@drawable/ic_add"
