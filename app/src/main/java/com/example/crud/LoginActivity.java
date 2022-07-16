@@ -56,7 +56,6 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(userName) && TextUtils.isEmpty(pwd)) {
                     Toast.makeText(LoginActivity.this, "Please Enter Credentials!!", Toast.LENGTH_SHORT).show();
-                    return;
                 }
 
                 else {
