@@ -19,13 +19,37 @@
       "coursePrice": "3499"
     },
     "The Complete Cyber Security Course: Hackers Exposed!": {
-      "bestSuitedFor": "IT",
+      "bestSuitedFor": "Intermediate ",
       "courseDescription": "Learn a practical skill-set in defeating all online threats, including - advanced hackers, trackers, malware, zero days, exploit kits, cybercriminals and more.\n\nBecome a Cyber Security Specialist - Go from a beginner to advanced in this easy to follow expert course.  \n\nCovering all major platforms - Windows 7, Windows 8, Windows 10, MacOS and Linux.\n\nThis course covers the fundamental building blocks of your required skill set - You will understand the threat and vulnerability landscape through threat modeling and risk assessments.\n\nWe explore the Darknet and mindset of the cyber criminal. Covering malware, exploit kits, phishing, zero-day vulnerabilities and much more.\n\nYou will learn about the global tracking and hacking infrastructures that nation states run. Covering the NSA, FBI, CIA, GCHQ, China’s MSS and other intelligence agencies capabilities.\n\nYou will understand the foundations of operating system security and privacy functionality. A close look at the new Windows 10 privacy issues and how to best mitigate them.\n\nThere is a complete easy to follow crash course on encryption, how encryption can be bypassed and what you can do to mitigate the risks.\n\nMaster defenses against phishing, SMShing, vishing, identity theft, scam, cons and other social engineering threats.\n\nFinally we cover the extremely important, but underused security control of isolation and compartmentalization. Covering sandboxes, application isolation, virtual machines, Whonix and Qubes OS.\n\nThis is volume 1 of 4 of your complete guide to cyber security privacy and anonymity.",
       "courseID": "The Complete Cyber Security Course: Hackers Exposed!",
       "courseImg": "https://img-c.udemycdn.com/course/480x270/614772_233b_9.jpg",
       "courseLink": "https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/",
       "courseName": "The Complete Cyber Security Course: Hackers Exposed!",
       "coursePrice": "3499"
+    },
+    "Django for Everybody Specialization": {
+      "bestSuitedFor": "Intermediate ",
+      "courseDescription": "This specialization introduces Python programmers to building websites using the Django library. Across the four courses, you will learn HTML, CSS, SQL, Django, JavaScript, jQuery, and JSON Web Services.  During the course, you will build online websites using Django and those working websites are graded throughout the course. This series is  excellent preparation for learning other ways to build web applications using technologies like PHP (Web Applications for Everybody), Flask or Ruby on Rails.  This is a great first course in any web development curriculum.",
+      "courseImg": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9b/39a3f0373111e69ce719fe5f0d2d9d/Capture.png",
+      "courseLink": "https://in.coursera.org/specializations/django#courses",
+      "courseName": "Django for Everybody Specialization",
+      "coursePrice": "1599"
+    },
+    "IBM Data Science": {
+      "bestSuitedFor": "Intermediate ",
+      "courseDescription": "Data science and machine learning skills continue to be in highest demand across industries, and the need for data practitioners is booming. Upon completing this Professional Certificate program, you will be armed with the skills and experience you need to start your career in data science and machine learning. Through hands-on assignments and high-quality instruction, you will build a portfolio using real data science tools and real-world problems and data sets. The curriculum will cover a wide range of data science topics including: open source tools and libraries, methodologies, Python, databases, SQL, data visualization, data analysis, and machine learning. There is no requirement for prior computer science or programming knowledge in order to take this program.",
+      "courseImg": "https://prod-discovery.edx-cdn.org/media/programs/card_images/b5598690-9bd8-4d21-b7f3-dc741b50473f-174928e730c7.jpeg",
+      "courseLink": "https://www.edx.org/professional-certificate/ibm-data-science?index=product&queryID=6d851d3130c2fe454f578f60157d0325&position=20",
+      "courseName": "IBM Data Science",
+      "coursePrice": "69753"
+    },
+    "Data Science: Deep Learning and Neural Networks in Python": {
+      "bestSuitedFor": "Beginner ",
+      "courseDescription": "This course will get you started in building your FIRST artificial neural network using deep learning techniques. Following my previous course on logistic regression, we take this basic building block, and build full-on non-linear neural networks right out of the gate using Python and Numpy.",
+      "courseImg": "https://img-b.udemycdn.com/course/480x270/713104_d4cb.jpg",
+      "courseLink": "https://www.udemy.com/course/data-science-deep-learning-in-python/",
+      "courseName": "Data Science: Deep Learning and Neural Networks in Python",
+      "coursePrice": "449"
     }
   }
 }
